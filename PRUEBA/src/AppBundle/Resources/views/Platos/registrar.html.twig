@@ -1,0 +1,14 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AppBundle:Platos:registrar{% endblock %}
+
+{% block body %}
+<h1>Welcome to the Platos:registrar page</h1>
+
+
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    <button>Enviar</button>
+    {{ form_end(form) }}
+
+{% endblock %}

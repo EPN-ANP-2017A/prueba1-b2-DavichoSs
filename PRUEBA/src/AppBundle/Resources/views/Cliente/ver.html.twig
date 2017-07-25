@@ -1,0 +1,14 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AppBundle:Cliente:ver{% endblock %}
+
+{% block body %}
+<h1>Welcome to the Cliente:ver page</h1>
+
+    <h2>{{ mensaje }}</h2>
+
+    <label>Nombre:</label>{{ cliente.nombre }}
+    <label>Descripción:</label>{{ cliente.cedula }}
+
+
+{% endblock %}

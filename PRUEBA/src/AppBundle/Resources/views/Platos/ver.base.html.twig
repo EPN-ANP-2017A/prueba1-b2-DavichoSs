@@ -1,0 +1,13 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AppBundle:Platos:ver{% endblock %}
+
+{% block body %}
+<h1>Welcome to the Platos:ver page</h1>
+
+<h2>{{ mensaje }}</h2>
+
+    <label>Nombre:</label>{{ plato.nombre }}
+    <label>Precio:</label>{{ plato.precio }}
+    <label>Disponibilidad:</label>{{ plato.disponible }}
+{% endblock %}
